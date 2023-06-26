@@ -1,0 +1,100 @@
+#open-calculator-btn, #btn-add-product{
+    background-color: #25A244;
+    border-color: #25A244;
+    border-width: 1px;
+    border-radius: 5px;
+    color: white;
+}
+#open-calculator-btn{
+    margin-top: 50px;
+    height: 50px;
+    font-size: 24px;
+}
+
+#open-calculator-btn:hover, #btn-add-product:hover{
+    background-color: #2DC653;
+    border-color: #2DC653;
+}
+
+#open-calculator-btn:active, #btn-add-product:active{
+    background-color: #2ad655;
+    border-color: #2ad655;
+}
+
+#main-content{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+h1{
+    color: rgb(0,186,0);
+}
+
+
+/* Table styles */
+table {
+  border: 1px solid rgb(204,204,204);
+}
+
+th, td {
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid rgb(204,204,204);
+  border-collapse: collapse;
+}
+
+th{
+    padding: 20px 10px;
+}
+
+td{
+    padding: 7px;
+    text-align: right;
+}
+
+.green-cell{
+    background-color: rgb(204,255,203);
+    color: rgb(0,160,0);
+    font-weight: bold;
+}
+
+.green-cell{
+    text-align: center;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.number{
+    text-align: center;
+}
+
+input{
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.weight-input{
+    text-align: center;
+}
+
+#btn-add-product{
+    margin: 15px 5px 5px 5px;
+    font-size: 18px;
+}
